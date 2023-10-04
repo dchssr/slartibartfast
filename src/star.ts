@@ -44,4 +44,8 @@ export class Star {
     static highMassStar(): Star {
         return new Star(highMassTable.pick());
     }
-}
+
+    toString(): string {
+        return `(M☉=${this.mass.toFixed(2)})`;
+    }
+};
