@@ -1,4 +1,4 @@
-import WeightedTable from "./random-table";
+import WeightedTable from "./weighted-table";
 
 // In solar units (M☉)
 const dwarfMassTable = new WeightedTable<number>([
